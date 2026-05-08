@@ -2,7 +2,7 @@
 # 🏦 End-to-End Credit Risk Scoring & Explainable AI Pipeline
 
 ## 📖 Project Overview
-This project develops a production-ready machine learning pipeline to predict credit loan defaults using the Lending Club dataset (150,000+ records). It is specifically designed to simulate a strict real-world underwriting environment by aggressively preventing data leakage and emphasizing model interpretability (Explainable AI) for regulatory compliance.
+This project develops a production-ready machine learning pipeline to predict credit loan defaults using the Lending Club dataset (150,000+ records) from Kaggle: **[Lending Club Loan Data](https://www.kaggle.com/datasets/wordsforthewise/lending-club/data)**. It is specifically designed to simulate a strict real-world underwriting environment by aggressively preventing data leakage and emphasizing model interpretability (Explainable AI) for regulatory compliance.
 
 ## 🚀 Key Highlights & Business Value
 * **Robust Anti-Leakage Pipeline:** Deliberately identified and removed post-origination features (e.g., `last_fico_range`, `recoveries`, `settlement_status`) that artificially inflate model performance. The model relies strictly on data available at the time of the loan application.
