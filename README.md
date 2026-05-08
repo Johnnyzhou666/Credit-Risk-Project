@@ -34,4 +34,4 @@ In highly regulated financial environments (e.g., OSFI/CFPB guidelines), black-b
 
 ## 📂 Repository Structure
 * `Lending_Club_Underwriting_Model.ipynb`: The complete Jupyter Notebook containing data extraction, feature engineering, model training, and SHAP visualizations.
-* `requirements.txt`: Environment dependencies.
+
