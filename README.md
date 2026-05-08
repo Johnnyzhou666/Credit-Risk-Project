@@ -1,4 +1,4 @@
-# Credit-Risk-Project
+
 # 🏦 End-to-End Credit Risk Scoring & Explainable AI Pipeline
 
 ## 📖 Project Overview
@@ -14,7 +14,7 @@ This project develops a production-ready machine learning pipeline to predict cr
 In highly regulated financial environments (e.g., OSFI/CFPB guidelines), black-box models are unacceptable. I deployed **SHAP (SHapley Additive exPlanations)** to interpret the XGBoost predictions globally and locally.
 
 ![SHAP Feature Explainability](shap_summary.png)
-*(Ensure the `shap_summary.png` file is uploaded to your repository to display this image)*
+
 
 **Key Underwriting Insights:**
 1. **Initial Interest Rate (`int_rate`):** Acts as a strong proxy for perceived risk during initial pricing; higher rates correlate heavily with eventual default.
