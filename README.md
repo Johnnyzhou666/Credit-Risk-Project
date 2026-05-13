@@ -123,7 +123,7 @@ SHAP is used to explain the global feature importance of the XGBoost model.
 
 ### SHAP Summary Plot
 
-![SHAP Summary](outputs/shap_summary.png)
+![SHAP Summary](shap_summary.png)
 
 ### Risk Band Report
 
