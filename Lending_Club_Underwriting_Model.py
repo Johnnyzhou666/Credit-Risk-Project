@@ -17,18 +17,18 @@ sns.set_theme(style="whitegrid")
 
 print("1. Locating and Loading Lending Club Data...")
 
-# 🌟 Dynamic Addressing: Pinpoint the 'accepted' dataset by wordsforthewise
 data_path = ""
+
 for root, dirs, files in os.walk('/kaggle/input/'):
     for file in files:
-        if "accepted" in file.lower() and file.endswith(".csv"):
+        if "accepted" in file.lower() and (file.endswith(".csv") or file.endswith(".csv.gz")):
             data_path = os.path.join(root, file)
             break
-
-
+    if data_path:
+        break
 
 if not data_path:
-    raise FileNotFoundError("🚨 Dataset not found. Please ensure the data is properly mounted or the path is correct!")
+    raise FileNotFoundError("Dataset not found. Please check the Kaggle input path.")
 
 print(f"✅ Data path successfully locked: {data_path}")
 
