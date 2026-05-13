@@ -125,15 +125,6 @@ SHAP is used to explain the global feature importance of the XGBoost model.
 
 ![SHAP Summary](shap_summary.png)
 
-### Risk Band Report
-
-The model ranks borrowers into risk bands based on predicted default probability. Higher bands represent higher predicted credit risk.
-
-The risk band report is saved as:
-
-```text
-outputs/risk_band_report.csv
-```
 
 ## Key Takeaways
 
