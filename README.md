@@ -41,7 +41,6 @@ Due to file size and licensing considerations, the raw dataset is not included i
 lending-club-credit-risk-modeling/
 ├── Lending_Club_Credit_Risk_Modeling.ipynb
 ├── README.md
-├── risk_band_report.csv
 └── shap_summary.png
 ```
 
