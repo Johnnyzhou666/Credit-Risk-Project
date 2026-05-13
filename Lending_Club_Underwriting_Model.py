@@ -25,11 +25,10 @@ for root, dirs, files in os.walk('/kaggle/input/'):
             data_path = os.path.join(root, file)
             break
 
-# If in a local environment (not Kaggle), manually specify the path here, e.g.:
-# data_path = "C:/Users/YourName/Downloads/accepted_2007_to_2018Q4.csv"
+
 
 if not data_path:
-    raise FileNotFoundError("🚨 accepted_2007_to_2018Q4.csv not found. Please ensure the data is properly mounted or the path is correct!")
+    raise FileNotFoundError("🚨 Dataset not found. Please ensure the data is properly mounted or the path is correct!")
 
 print(f"✅ Data path successfully locked: {data_path}")
 
